@@ -6,7 +6,6 @@ module.exports = {
     'react-native/react-native': true
   },
   extends: [
-    'react-app',
     'airbnb',
 
     "plugin:react/recommended",
@@ -80,9 +79,6 @@ module.exports = {
       "babel-plugin-root-import": {
         rootPathSuffix: "src",
         rootPathPrefix: "~"
-      },
-      node: {
-        extensions: [".js", ".jsx", "ts", ".tsx"]
       },
     }
   },
